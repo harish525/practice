@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Truksindia</title>
+  <title>title</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -27,33 +27,33 @@
     </div>
   </header>
   <!-- navbar -->
-  <nav class="navbar navbar-expand-md sticky-top bg-dark navbar-dark">
+  <nav class="navbar navbar-expand-md sticky-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Truksindia</a>
+      <a class="navbar-brand" href="#"><img src="img/Truksindia-logo.png"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav text-right">
           <li class="nav-item">
-            <a class="nav-link" href="#">Drive</a>
+            <a class="nav-link hvr-underline-from-left" href="#">Drive</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Deliver</a>
+            <a class="nav-link hvr-underline-from-left" href="#">Deliver</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
+            <a class="nav-link hvr-underline-from-left" href="#">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link hvr-underline-from-left" href="#">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link hvr-underline-from-left" href="#">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Login</a>
+            <a class="nav-link hvr-underline-from-left" href="#">Login</a>
           </li>
-          <button type="button" class="btn btn-outline-danger">Signup</button>
+          <button type="button" class="btn btn-outline-warning">Signup</button>
         </ul>
       </div>
     </div>
@@ -74,22 +74,80 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="img/slide1.jpg">
-        </div>
-        <div class="carousel-item">
-          <img src="img/slide2.jpg">
-        </div>
-        <div class="carousel-item">
-            <img src="img/slide3.jpg">
-          </div>
-      </div>
+          <div class="carousel-caption text-left">
+            <div class="tab-content">
+              <div id="ondemand-booking" class="container tab-pane active"><br>
+                <div class="pb-5 col-md-9 mx-auto text-center">
+                  <h3 class="pb-2">Book a City Truck to your destination in town</h3>
+                  <p>Choose from a range of categories and prices</p>
+                </div>
+              </div>
+              <div id="enterprises" class="container tab-pane"><br>
+                <div class="pb-5 col-md-6 mx-auto text-center">
+                  <h3 class="pb-2">Your Heading</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Nav pills -->
+            <ul class="nav nav-pills container" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" data-toggle="pill" href="#ondemand-booking">On Demand Booking</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="pill" href="#enterprises">For Enterprises</a>
+              </li>
+            </ul>
 
-      <!-- Left and right controls -->
-      <a class="carousel-control-prev" href="#demo" data-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-      </a>
-      <a class="carousel-control-next" href="#demo" data-slide="next">
-        <span class="carousel-control-next-icon"></span>
-      </a>
+            <!-- Tab panes -->
+            <div class="tab-content">
+              <div id="ondemand-booking" class="container tab-pane active">
+                <form>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="row">
+                      <div class="col-md-4">
+                        <div class="form-group">
+                          <label for="city">City</label>
+                          <select class="form-control select-city" id="city">
+                            <option>Hyderabad</option>
+                            <option>Chennai</option>
+                            <option>Bengaluru</option>
+                            <option>Mumbai</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="form-group">
+                          <label for="pickup">Pickup</label>
+                          <input type="text" placeholder="enter pickup area/adress" class="form-control" id="pickup">
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="form-group">
+                          <label for="drop-off">Drop</label>
+                          <input type="text" placeholder="enter drop off area/adress" class="form-control"
+                            id="drop-off">
+                        </div>
+                      </div>
+                      <div class="col-12 mx-auto justify-content-center d-flex mt-3">
+                          <button type="submit" class="btn btn-primary btn-book-truck btn-grad">Book My Truck</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+              </div>
+              <div id="enterprises" class="container tab-pane fade">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="carousel-item">
+          <img src="img/slide2.jpg">
+        </div> -->
+      </div>
     </div>
   </main>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
