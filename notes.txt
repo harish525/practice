@@ -1,3 +1,4 @@
 primary-orange: #e95615;
 light-blue: #00aeef;
 blue: #00455f;
+navy-blue: #06163a;
