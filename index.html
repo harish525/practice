@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
@@ -27,7 +28,7 @@
     </div>
   </header>
   <!-- navbar -->
-  <nav class="navbar navbar-expand-md sticky-top">
+  <nav class="navbar navbar-expand-md shadow sticky-top">
     <div class="container">
       <a class="navbar-brand" href="#"><img src="img/Truksindia-logo.png"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -64,11 +65,11 @@
     <div id="demo" class="carousel slide carousel-fade" data-ride="carousel">
 
       <!-- Indicators -->
-      <ul class="carousel-indicators">
+      <!-- <ul class="carousel-indicators">
         <li data-target="#demo" data-slide-to="0" class="active"></li>
         <li data-target="#demo" data-slide-to="1"></li>
         <li data-target="#demo" data-slide-to="2"></li>
-      </ul>
+      </ul> -->
 
       <!-- The slideshow -->
       <div class="carousel-inner">
@@ -76,70 +77,100 @@
           <img src="img/slide1.jpg">
           <div class="carousel-caption text-left">
             <div class="tab-content">
-              <div id="ondemand-booking" class="container tab-pane active"><br>
+              <div id="ondemand-booking" class="ondemand-booking container tab-pane show active">
                 <div class="pb-5 col-md-9 mx-auto text-center">
                   <h3 class="pb-2">Book a City Truck to your destination in town</h3>
                   <p>Choose from a range of categories and prices</p>
                 </div>
               </div>
-              <div id="enterprises" class="container tab-pane"><br>
+              <div id="" class="enterprises container tab-pane fade">
                 <div class="pb-5 col-md-6 mx-auto text-center">
-                  <h3 class="pb-2">Your Heading</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                  <h3 class="pb-2">Enterprises heading goes from here</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                 </div>
               </div>
             </div>
-            <!-- Nav pills -->
-            <ul class="nav nav-pills container" role="tablist">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs tabs-wrapper" role="tablist">
               <li class="nav-item">
-                <a class="nav-link active" data-toggle="pill" href="#ondemand-booking">On Demand Booking</a>
+                <a class="nav-link ondemand-booking active" data-toggle="tab" href="#ondemand-booking">On Demand
+                  Booking</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" data-toggle="pill" href="#enterprises">For Enterprises</a>
+                <a class="nav-link enterprises" data-toggle="tab" href="#enterprises">For Enterprises</a>
               </li>
             </ul>
 
             <!-- Tab panes -->
-            <div class="tab-content">
-              <div id="ondemand-booking" class="container tab-pane active">
+            <div class="tab-content form-wrapper">
+              <div id="ondemand-booking" class="ondemand-booking container tab-pane show active">
                 <form>
-                <div class="row">
-                  <div class="col-md-12">
-                    <div class="row">
-                      <div class="col-md-4">
-                        <div class="form-group">
-                          <label for="city">City</label>
-                          <select class="form-control select-city" id="city">
-                            <option>Hyderabad</option>
-                            <option>Chennai</option>
-                            <option>Bengaluru</option>
-                            <option>Mumbai</option>
-                          </select>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <div class="form-group">
+                            <label for="city">City</label>
+                            <select class="form-control select-city" id="city">
+                              <option>Hyderabad</option>
+                              <option>Chennai</option>
+                              <option>Bengaluru</option>
+                              <option>Mumbai</option>
+                            </select>
+                          </div>
                         </div>
-                      </div>
-                      <div class="col-md-4">
-                        <div class="form-group">
-                          <label for="pickup">Pickup</label>
-                          <input type="text" placeholder="enter pickup area/adress" class="form-control" id="pickup">
+                        <div class="col-md-4">
+                          <div class="form-group">
+                            <label for="pickup">Pickup</label>
+                            <input type="text" placeholder="enter pickup area/adress" class="form-control" id="pickup">
+                          </div>
                         </div>
-                      </div>
-                      <div class="col-md-4">
-                        <div class="form-group">
-                          <label for="drop-off">Drop</label>
-                          <input type="text" placeholder="enter drop off area/adress" class="form-control"
-                            id="drop-off">
+                        <div class="col-md-4">
+                          <div class="form-group">
+                            <label for="drop-off">Drop</label>
+                            <input type="text" placeholder="enter drop off area/adress" class="form-control"
+                              id="drop-off">
+                          </div>
                         </div>
-                      </div>
-                      <div class="col-12 mx-auto justify-content-center d-flex mt-3">
+                        <div class="col-12 mx-auto justify-content-center d-flex mt-3">
                           <button type="submit" class="btn btn-primary btn-book-truck btn-grad">Book My Truck</button>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
-              </form>
+                </form>
               </div>
-              <div id="enterprises" class="container tab-pane fade">
-                
+              <div id="enterprises" class="enterprises container tab-pane fade">
+                <form>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" placeholder="enter name" class="form-control" id="name">
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="text" placeholder="enter phone no." class="form-control" id="phone">
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="text" placeholder="enter email" class="form-control" id="emial">
+                          </div>
+                        </div>
+                        <div class="col-12 mx-auto justify-content-center d-flex mt-3">
+                          <button type="submit" class="btn btn-primary btn-book-truck btn-grad">Submit and request
+                            callback</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
               </div>
             </div>
           </div>
@@ -150,9 +181,88 @@
       </div>
     </div>
   </main>
+
+  <!-- footer -->
+  <footer class="site-footer">
+    <!-- Footer Top Part -->
+    <div class="footer-top pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <!-- About -->
+          <div class="col-md-4 col-sm-6">
+            <div class="widget widget-about">
+              <h4 class="widget-title">About Company</h4>
+              <p>Lorem ipsum this is dummy text dolor sit amet check this text, consecte tura dipiscing elit, sed do
+                eiusmod tempor doler is incididunt. </p>
+              <ul>
+                <li> <i class="fa fa-phone"></i> <b class="text-uppercase">Tel :</b> (123) 654-3210
+                </li>
+                <li><i class="fa fa-envelope"></i> <b class="text-uppercase">Email :
+                  </b>truksindia@gmail.com</li>
+                <li><i class="fa fa-location-arrow"></i> <b class="text-uppercase">Location :</b>
+                  Street 4 ,45 Hyderabad City</li>
+              </ul>
+            </div>
+          </div>
+          <!-- Useful Links -->
+          <div class="col-md-3 col-sm-6">
+            <div class="widget widget-services">
+              <h4 class="widget-title">Useful links</h4>
+              <ul>
+                <li><a href="#">Drive</a></li>
+                <li><a href="#">Deliver</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- Footer social icons -->
+          <div class="col-md-4 offset-md-1 col-sm-6">
+            <div class="widget widget-social">
+              <h4 class="widget-title">Reach us on social media</h4>
+              <ul>
+                <li>
+                  <a href="#" class="fa fa-facebook">
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="fa fa-twitter">
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="fa fa-youtube-play">
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="fa fa-instagram">
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="fa fa-pinterest">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer Copyright Part -->
+    <div class="footer-bottom">
+      <div class="container pt-4 pb-4">
+        <div class="text-center">
+          <span class="copyrights-text">© 2019 Your Truksindia. All Rights Reserved. Designed By Harish</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- scripts -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="js/custom.js"></script>
 </body>
 
 </html>
