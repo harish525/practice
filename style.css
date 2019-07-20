@@ -20,7 +20,13 @@ h6 {
 li {
     list-style-type: none;
 }
-
+ul {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0;
+}
 a {
     -webkit-transition: all 0.2s linear;
     -moz-transition: all 0.2s linear;
@@ -29,7 +35,13 @@ a {
     transition: all 0.2s linear;
 }
 .bg-gray {
-    background-color: #f5f6f6;
+    background-color: #fafafa;
+}
+.bg-gray-2 {
+    background-color: #f0f0f0;
+}
+.bg-gray-3 {
+    background-color: #f4f5f5;
 }
 .text-primary {
     color:  #e95615 !important;
@@ -260,7 +272,7 @@ body select option {
 .site-footer li {
     font-size: 13px;
     line-height: 20px;
-    color: #484848;
+    color: #97A7C9;
 }
 
 footer .widget-services ul li {
@@ -271,7 +283,7 @@ footer .widget-services ul li {
 }
 
 .footer-top {
-    background-color: #eee;
+    background-color: #010e2a;
 }
 
 .site-footer ul {
@@ -284,14 +296,14 @@ footer .widget-services ul li {
     font-weight: 900;
     font-size: 18px;
     line-height: 24px;
-    color: #1a1a1a;
+    color: #fff;
     margin-bottom: 15px;
 }
 
 .site-footer p {
     font-size: 13px;
     line-height: 20px;
-    color: #484848;
+    color: #97A7C9;
     max-width: 300px;
     margin-bottom: 24px;
 }
@@ -311,11 +323,11 @@ footer .widget-services ul li {
 
 .footer-bottom {
     font-size: 13px;
-    background-color: #ddd;
+    background-color: #01091b;
 }
 
 .footer-bottom .copyrights-text {
-    color: #474747;
+    color: #66738F;
 }
 
 .widget-services ul li:before {
@@ -331,7 +343,7 @@ footer .widget-services ul li {
 .site-footer li a {
     font-size: 13px;
     line-height: 20px;
-    color: #484848;
+    color: #97A7C9;
     text-transform: uppercase;
     text-decoration: none;
 }
@@ -449,6 +461,114 @@ footer .widget-services ul li {
     width: unset;
     max-width: 100%;
 }
+
+/* section-enterprises */
+.section-enterprises .card {
+    -webkit-transition: all 400ms ease-in-out;
+    -moz-transition: all 400ms ease-in-out;
+    -o-transition: all 400ms ease-in-out;
+    -ms-transition: all 400ms ease-in-out;
+    transition: all 400ms ease-in-out;
+}
+.section-enterprises .card:hover {
+    transform: translateY(-15px);
+    -webkit-transition: all 400ms ease-in-out;
+    -moz-transition: all 400ms ease-in-out;
+    -o-transition: all 400ms ease-in-out;
+    -ms-transition: all 400ms ease-in-out;
+    transition: all 400ms ease-in-out;
+}
+.section-enterprises .card-img-top {
+        max-width: 100%;
+        height:  165px;
+        -webkit-transition: all 400ms ease-in-out;
+        -moz-transition: all 400ms ease-in-out;
+        -o-transition: all 400ms ease-in-out;
+        -ms-transition: all 400ms ease-in-out;
+        transition: all 400ms ease-in-out;
+}
+.section-enterprises .image-wrapper {
+    overflow: hidden;
+}
+.section-enterprises .image-wrapper:hover img {
+    transform: scale(1.1);
+    -webkit-transition: all 400ms ease-in-out;
+    -moz-transition: all 400ms ease-in-out;
+    -o-transition: all 400ms ease-in-out;
+    -ms-transition: all 400ms ease-in-out;
+    transition: all 400ms ease-in-out;
+}
+.section-enterprises .card-title {
+    margin-top: 0;
+    font-weight: 900;
+    font-size: 16px;
+    color: #e95615;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.section-enterprises .card-text {
+    font-size: 13px;
+}
+
+/* section-ondemand */
+.section-ondemand .card {
+    -webkit-transition: all 400ms ease-in-out;
+    -moz-transition: all 400ms ease-in-out;
+    -o-transition: all 400ms ease-in-out;
+    -ms-transition: all 400ms ease-in-out;
+    transition: all 400ms ease-in-out;
+}
+.section-ondemand .card:hover {
+    transform: translateY(-15px);
+    -webkit-transition: all 400ms ease-in-out;
+    -moz-transition: all 400ms ease-in-out;
+    -o-transition: all 400ms ease-in-out;
+    -ms-transition: all 400ms ease-in-out;
+    transition: all 400ms ease-in-out;
+}
+.section-ondemand .card-img-top {
+        max-width: 100%;
+        height:  200px;
+        -webkit-transition: all 400ms ease-in-out;
+        -moz-transition: all 400ms ease-in-out;
+        -o-transition: all 400ms ease-in-out;
+        -ms-transition: all 400ms ease-in-out;
+        transition: all 400ms ease-in-out;
+}
+.section-ondemand .image-wrapper {
+    overflow: hidden;
+}
+.section-ondemand .image-wrapper:hover img {
+    transform: scale(1.1);
+    -webkit-transition: all 400ms ease-in-out;
+    -moz-transition: all 400ms ease-in-out;
+    -o-transition: all 400ms ease-in-out;
+    -ms-transition: all 400ms ease-in-out;
+    transition: all 400ms ease-in-out;
+}
+.section-ondemand .card-title {
+    margin-top: 0;
+    font-weight: 900;
+    font-size: 16px;
+    color: #e95615;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.section-ondemand  ul li {
+    font-size: 13px;
+    position: relative;
+    padding: 6px 10px 6px 15px;
+}
+.section-ondemand ul li:before {
+    content: "\f054";
+    position: absolute;
+    left: 0;
+    top: 10px;
+    display: block;
+    font-family: "FontAwesome";
+    font-size: 8px;
+}
+
 @media (min-width: 768px) {
     .navbar-expand-md .navbar-nav .nav-link {
         padding-right: 0;
