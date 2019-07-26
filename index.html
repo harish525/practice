@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Truksindia</title>
+  <title>Truks India</title>
   <!-- bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <!-- fonts -->
@@ -45,13 +45,19 @@
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav text-right">
           <li class="nav-item">
-            <a class="nav-link hvr-underline-from-left" href="#">Drive</a>
+            <a class="nav-link hvr-underline-from-left" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link hvr-underline-from-left" href="#">Deliver</a>
+            <a class="nav-link hvr-underline-from-left" href="#">Enterprise</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link hvr-underline-from-left" href="#">Services</a>
+            <a class="nav-link hvr-underline-from-left" href="#">Drivers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hvr-underline-from-left" href="#">Vendors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hvr-underline-from-left" href="#">Packers & Movers</a>
           </li>
           <li class="nav-item">
             <a class="nav-link hvr-underline-from-left" href="#">About</a>
@@ -70,48 +76,137 @@
 
   <main>
     <!-- slider -->
-    <div id="demo" class="carousel slide carousel-fade" data-ride="carousel">
-
-      <!-- Indicators -->
-      <!-- <ul class="carousel-indicators">
-        <li data-target="#demo" data-slide-to="0" class="active"></li>
-        <li data-target="#demo" data-slide-to="1"></li>
-        <li data-target="#demo" data-slide-to="2"></li>
-      </ul> -->
-
+    <div id="mutliforms" class="carousel slide carousel-fade" data-ride="carousel">
       <!-- The slideshow -->
       <div class="carousel-inner">
+        <!-- slide-1 start -->
         <div class="carousel-item active">
-          <img src="img/slide1.jpg">
+          <img src="img/enterprise.jpg">
           <div class="carousel-caption text-left">
             <div class="tab-content">
-              <div id="ondemand-booking" class="ondemand-booking container tab-pane show active">
+              <div id="" class="container">
                 <div class="pb-5 col-md-9 mx-auto text-center">
-                  <h3 class="pb-2">Book a City Truck to your destination in town</h3>
-                  <p>Choose from a range of categories and prices</p>
-                </div>
-              </div>
-              <div id="" class="enterprises container tab-pane fade">
-                <div class="pb-5 col-md-8 mx-auto text-center">
-                  <h3 class="pb-2">Enterprises heading goes from here</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  <h3 class="pb-2">Become a part of Truks India family</h3>
+                  <p>Over 25000 happy clients worldwide</p>
                 </div>
               </div>
             </div>
             <!-- Nav tabs -->
             <ul class="nav nav-tabs tabs-wrapper" role="tablist">
               <li class="nav-item">
-                <a class="nav-link ondemand-booking active" data-toggle="tab" href="#ondemand-booking">On Demand
-                  Booking</a>
+                <a class="nav-link enterprises active" data-toggle="tab" href="#enterprises" data-target="#mutliforms"
+                  data-slide-to="0">Enterprises</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link enterprises" data-toggle="tab" href="#enterprises">For Enterprises</a>
+                <a class="nav-link drivers " data-toggle="tab" href="#drivers" data-target="#mutliforms"
+                  data-slide-to="1">Drivers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link vendors" data-toggle="tab" href="#vendors" data-target="#mutliforms"
+                  data-slide-to="2">Vendors</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ondemand-booking" data-toggle="tab" href="#ondemand-booking"
+                  data-target="#mutliforms" data-slide-to="3">Packers & Movers</a>
               </li>
             </ul>
 
             <!-- Tab panes -->
             <div class="tab-content form-wrapper">
-              <div id="ondemand-booking" class="ondemand-booking container tab-pane show active">
+              <div id="enterprises" class="enterprises container tab-pane show active">
+                <form>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" placeholder="enter name" class="form-control" id="name">
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="text" placeholder="enter phone no." class="form-control" id="phone">
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="text" placeholder="enter email" class="form-control" id="emial">
+                          </div>
+                        </div>
+                        <div class="col-12 mx-auto justify-content-center d-flex mt-3">
+                          <button type="submit" class="btn btn-primary btn-book-truck btn-grad">Submit Enquery</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div id="drivers" class="drivers container tab-pane fade">
+                <form>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" placeholder="enter name" class="form-control" id="name">
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="text" placeholder="enter phone no." class="form-control" id="phone">
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="text" placeholder="enter email" class="form-control" id="emial">
+                          </div>
+                        </div>
+                        <div class="col-12 mx-auto justify-content-center d-flex mt-3">
+                          <button type="submit" class="btn btn-primary btn-book-truck btn-grad">Submit Enquery</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div id="vendors" class="vendors container tab-pane fade">
+                <form>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" placeholder="enter name" class="form-control" id="name">
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="text" placeholder="enter phone no." class="form-control" id="phone">
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="text" placeholder="enter email" class="form-control" id="emial">
+                          </div>
+                        </div>
+                        <div class="col-12 mx-auto justify-content-center d-flex mt-3">
+                          <button type="submit" class="btn btn-primary btn-book-truck btn-grad">Submit Enquery</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div id="ondemand-booking" class="ondemand-booking container tab-pane fade">
                 <form>
                   <div class="row">
                     <div class="col-md-12">
@@ -148,6 +243,44 @@
                   </div>
                 </form>
               </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- slide-2 start -->
+        <div class="carousel-item">
+          <img src="img/drivers.jpg">
+          <div class="carousel-caption text-left">
+            <div class="tab-content">
+              <div id="" class="container">
+                <div class="pb-5 col-md-8 mx-auto text-center">
+                  <h3 class="pb-2">Become a part of Truks India family</h3>
+                  <p>Over 25000 happy clients worldwide</p>
+                </div>
+              </div>
+            </div>
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs tabs-wrapper" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link enterprises" data-toggle="tab" href="#enterprises" data-target="#mutliforms"
+                  data-slide-to="0">For Enterprises</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link drivers active" data-toggle="tab" href="#drivers" data-target="#mutliforms"
+                  data-slide-to="1">Drivers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link vendors" data-toggle="tab" href="#vendors" data-target="#mutliforms"
+                  data-slide-to="2">Vendors</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ondemand-booking" data-toggle="tab" href="#ondemand-booking"
+                  data-target="#mutliforms" data-slide-to="3">Packers & Movers</a>
+              </li>
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content form-wrapper">
               <div id="enterprises" class="enterprises container tab-pane fade">
                 <form>
                   <div class="row">
@@ -172,8 +305,106 @@
                           </div>
                         </div>
                         <div class="col-12 mx-auto justify-content-center d-flex mt-3">
-                          <button type="submit" class="btn btn-primary btn-book-truck btn-grad">Submit and request
-                            callback</button>
+                          <button type="submit" class="btn btn-primary btn-book-truck btn-grad">Submit Enquery</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div id="drivers" class="drivers container tab-pane show active">
+                <form>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" placeholder="enter name" class="form-control" id="name">
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="text" placeholder="enter phone no." class="form-control" id="phone">
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="text" placeholder="enter email" class="form-control" id="emial">
+                          </div>
+                        </div>
+                        <div class="col-12 mx-auto justify-content-center d-flex mt-3">
+                          <button type="submit" class="btn btn-primary btn-book-truck btn-grad">Submit Enquery</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div id="vendors" class="vendors container tab-pane fade">
+                <form>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" placeholder="enter name" class="form-control" id="name">
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="text" placeholder="enter phone no." class="form-control" id="phone">
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="text" placeholder="enter email" class="form-control" id="emial">
+                          </div>
+                        </div>
+                        <div class="col-12 mx-auto justify-content-center d-flex mt-3">
+                          <button type="submit" class="btn btn-primary btn-book-truck btn-grad">Submit Enquery</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div id="ondemand-booking" class="ondemand-booking container tab-pane fade">
+                <form>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <div class="form-group">
+                            <label for="city">City</label>
+                            <select class="form-control select-city" id="city">
+                              <option>Hyderabad</option>
+                              <option>Chennai</option>
+                              <option>Bengaluru</option>
+                              <option>Mumbai</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="form-group">
+                            <label for="pickup">Pickup</label>
+                            <input type="text" placeholder="enter pickup area/adress" class="form-control" id="pickup">
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="form-group">
+                            <label for="drop-off">Drop</label>
+                            <input type="text" placeholder="enter drop off area/adress" class="form-control"
+                              id="drop-off">
+                          </div>
+                        </div>
+                        <div class="col-12 mx-auto justify-content-center d-flex mt-3">
+                          <button type="submit" class="btn btn-primary btn-book-truck btn-grad">Book My Truck</button>
                         </div>
                       </div>
                     </div>
@@ -183,36 +414,302 @@
             </div>
           </div>
         </div>
+
+        <!-- slide-3 start -->
         <div class="carousel-item">
-          <img src="img/slide2.jpg">
-          <div class="carousel-caption text-left">
+            <img src="img/vendors.jpg">
+            <div class="carousel-caption text-left">
               <div class="tab-content">
-                <div id="ondemand-booking" class="ondemand-booking container tab-pane show active">
-                  <div class="pb-5 col-md-9 mx-auto text-center">
-                    <h3 class="pb-2">Book a City Truck to your destination in town</h3>
-                    <p>Choose from a range of categories and prices</p>
-                  </div>
-                </div>
-                <div id="" class="enterprises container tab-pane fade">
+                <div id="" class="container">
                   <div class="pb-5 col-md-8 mx-auto text-center">
-                    <h3 class="pb-2">Enterprises heading goes from here</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <h3 class="pb-2">Become a part of Truks India family</h3>
+                    <p>Over 25000 happy clients worldwide</p>
                   </div>
                 </div>
               </div>
               <!-- Nav tabs -->
               <ul class="nav nav-tabs tabs-wrapper" role="tablist">
                 <li class="nav-item">
-                  <a class="nav-link ondemand-booking active" data-toggle="tab" href="#ondemand-booking">On Demand
-                    Booking</a>
+                  <a class="nav-link enterprises" data-toggle="tab" href="#enterprises" data-target="#mutliforms"
+                    data-slide-to="0">For Enterprises</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link enterprises" data-toggle="tab" href="#enterprises">For Enterprises</a>
+                  <a class="nav-link drivers" data-toggle="tab" href="#drivers" data-target="#mutliforms"
+                    data-slide-to="1">Drivers</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link vendors active" data-toggle="tab" href="#vendors" data-target="#mutliforms"
+                    data-slide-to="2">Vendors</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link ondemand-booking" data-toggle="tab" href="#ondemand-booking"
+                    data-target="#mutliforms" data-slide-to="3">Packers & Movers</a>
                 </li>
               </ul>
   
               <!-- Tab panes -->
               <div class="tab-content form-wrapper">
+                <div id="enterprises" class="enterprises container tab-pane fade">
+                  <form>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="row">
+                          <div class="col-md-4">
+                            <div class="form-group">
+                              <label for="name">Name</label>
+                              <input type="text" placeholder="enter name" class="form-control" id="name">
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="form-group">
+                              <label for="phone">Phone</label>
+                              <input type="text" placeholder="enter phone no." class="form-control" id="phone">
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="form-group">
+                              <label for="email">Email</label>
+                              <input type="text" placeholder="enter email" class="form-control" id="emial">
+                            </div>
+                          </div>
+                          <div class="col-12 mx-auto justify-content-center d-flex mt-3">
+                            <button type="submit" class="btn btn-primary btn-book-truck btn-grad">Submit Enquery</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <div id="drivers" class="drivers container tab-pane fade">
+                  <form>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="row">
+                          <div class="col-md-4">
+                            <div class="form-group">
+                              <label for="name">Name</label>
+                              <input type="text" placeholder="enter name" class="form-control" id="name">
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="form-group">
+                              <label for="phone">Phone</label>
+                              <input type="text" placeholder="enter phone no." class="form-control" id="phone">
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="form-group">
+                              <label for="email">Email</label>
+                              <input type="text" placeholder="enter email" class="form-control" id="emial">
+                            </div>
+                          </div>
+                          <div class="col-12 mx-auto justify-content-center d-flex mt-3">
+                            <button type="submit" class="btn btn-primary btn-book-truck btn-grad">Submit Enquery</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <div id="vendors" class="vendors container tab-pane show active">
+                  <form>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="row">
+                          <div class="col-md-4">
+                            <div class="form-group">
+                              <label for="name">Name</label>
+                              <input type="text" placeholder="enter name" class="form-control" id="name">
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="form-group">
+                              <label for="phone">Phone</label>
+                              <input type="text" placeholder="enter phone no." class="form-control" id="phone">
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="form-group">
+                              <label for="email">Email</label>
+                              <input type="text" placeholder="enter email" class="form-control" id="emial">
+                            </div>
+                          </div>
+                          <div class="col-12 mx-auto justify-content-center d-flex mt-3">
+                            <button type="submit" class="btn btn-primary btn-book-truck btn-grad">Submit Enquery</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <div id="ondemand-booking" class="ondemand-booking container tab-pane fade">
+                  <form>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="row">
+                          <div class="col-md-4">
+                            <div class="form-group">
+                              <label for="city">City</label>
+                              <select class="form-control select-city" id="city">
+                                <option>Hyderabad</option>
+                                <option>Chennai</option>
+                                <option>Bengaluru</option>
+                                <option>Mumbai</option>
+                              </select>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="form-group">
+                              <label for="pickup">Pickup</label>
+                              <input type="text" placeholder="enter pickup area/adress" class="form-control" id="pickup">
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="form-group">
+                              <label for="drop-off">Drop</label>
+                              <input type="text" placeholder="enter drop off area/adress" class="form-control"
+                                id="drop-off">
+                            </div>
+                          </div>
+                          <div class="col-12 mx-auto justify-content-center d-flex mt-3">
+                            <button type="submit" class="btn btn-primary btn-book-truck btn-grad">Book My Truck</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <!-- slide-4 start -->
+        <div class="carousel-item">
+            <img src="img/packers.png">
+            <div class="carousel-caption text-left">
+              <div class="tab-content">
+                <div id="" class="container">
+                  <div class="pb-5 col-md-8 mx-auto text-center">
+                    <h3 class="pb-2">Become a part of Truks India family</h3>
+                    <p>Over 25000 happy clients worldwide</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Nav tabs -->
+              <ul class="nav nav-tabs tabs-wrapper" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link enterprises" data-toggle="tab" href="#enterprises" data-target="#mutliforms"
+                    data-slide-to="0">For Enterprises</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link drivers" data-toggle="tab" href="#drivers" data-target="#mutliforms"
+                    data-slide-to="1">Drivers</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link vendors" data-toggle="tab" href="#vendors" data-target="#mutliforms"
+                    data-slide-to="2">Vendors</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link ondemand-booking active" data-toggle="tab" href="#ondemand-booking"
+                    data-target="#mutliforms" data-slide-to="3">Packers & Movers</a>
+                </li>
+              </ul>
+  
+              <!-- Tab panes -->
+              <div class="tab-content form-wrapper">
+                <div id="enterprises" class="enterprises container tab-pane fade">
+                  <form>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="row">
+                          <div class="col-md-4">
+                            <div class="form-group">
+                              <label for="name">Name</label>
+                              <input type="text" placeholder="enter name" class="form-control" id="name">
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="form-group">
+                              <label for="phone">Phone</label>
+                              <input type="text" placeholder="enter phone no." class="form-control" id="phone">
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="form-group">
+                              <label for="email">Email</label>
+                              <input type="text" placeholder="enter email" class="form-control" id="emial">
+                            </div>
+                          </div>
+                          <div class="col-12 mx-auto justify-content-center d-flex mt-3">
+                            <button type="submit" class="btn btn-primary btn-book-truck btn-grad">Submit Enquery</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <div id="drivers" class="drivers container tab-pane fade">
+                  <form>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="row">
+                          <div class="col-md-4">
+                            <div class="form-group">
+                              <label for="name">Name</label>
+                              <input type="text" placeholder="enter name" class="form-control" id="name">
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="form-group">
+                              <label for="phone">Phone</label>
+                              <input type="text" placeholder="enter phone no." class="form-control" id="phone">
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="form-group">
+                              <label for="email">Email</label>
+                              <input type="text" placeholder="enter email" class="form-control" id="emial">
+                            </div>
+                          </div>
+                          <div class="col-12 mx-auto justify-content-center d-flex mt-3">
+                            <button type="submit" class="btn btn-primary btn-book-truck btn-grad">Submit Enquery</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <div id="vendors" class="vendors container tab-pane fade">
+                  <form>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="row">
+                          <div class="col-md-4">
+                            <div class="form-group">
+                              <label for="name">Name</label>
+                              <input type="text" placeholder="enter name" class="form-control" id="name">
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="form-group">
+                              <label for="phone">Phone</label>
+                              <input type="text" placeholder="enter phone no." class="form-control" id="phone">
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="form-group">
+                              <label for="email">Email</label>
+                              <input type="text" placeholder="enter email" class="form-control" id="emial">
+                            </div>
+                          </div>
+                          <div class="col-12 mx-auto justify-content-center d-flex mt-3">
+                            <button type="submit" class="btn btn-primary btn-book-truck btn-grad">Submit Enquery</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
                 <div id="ondemand-booking" class="ondemand-booking container tab-pane show active">
                   <form>
                     <div class="row">
@@ -250,44 +747,12 @@
                     </div>
                   </form>
                 </div>
-                <div id="enterprises" class="enterprises container tab-pane fade">
-                  <form>
-                    <div class="row">
-                      <div class="col-md-12">
-                        <div class="row">
-                          <div class="col-md-4">
-                            <div class="form-group">
-                              <label for="name">Name</label>
-                              <input type="text" placeholder="enter name" class="form-control" id="name">
-                            </div>
-                          </div>
-                          <div class="col-md-4">
-                            <div class="form-group">
-                              <label for="phone">Phone</label>
-                              <input type="text" placeholder="enter phone no." class="form-control" id="phone">
-                            </div>
-                          </div>
-                          <div class="col-md-4">
-                            <div class="form-group">
-                              <label for="email">Email</label>
-                              <input type="text" placeholder="enter email" class="form-control" id="emial">
-                            </div>
-                          </div>
-                          <div class="col-12 mx-auto justify-content-center d-flex mt-3">
-                            <button type="submit" class="btn btn-primary btn-book-truck btn-grad">Submit and request
-                              callback</button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </form>
-                </div>
               </div>
             </div>
-          </div>
         </div>
       </div>
     </div>
+
 
 
     <!-- enterprises offers -->
@@ -414,15 +879,15 @@
 
                       </h4>
                       <p class="card-text">
-                          <ul>
-                            <li>Load at different places on your way
-                              </li>
-                            <li>Unload at different places on your way
-                              </li>
-                            <li>Hassle free route options</li>
-                            <li>Custom route options</li>
-                          </ul>
-                        </p>
+                        <ul>
+                          <li>Load at different places on your way
+                          </li>
+                          <li>Unload at different places on your way
+                          </li>
+                          <li>Hassle free route options</li>
+                          <li>Custom route options</li>
+                        </ul>
+                      </p>
 
                     </div>
                   </div>
@@ -436,13 +901,13 @@
                       <h4 class="card-title">End-to-end visibility
                       </h4>
                       <p class="card-text">
-                          <ul>
-                            <li>Track your vehicle</li>
-                            <li>Track your vehicle on the app</li>
-                            <li>Track your order</li>
-                            <li>Know your order location</li>
-                          </ul>
-                        </p>
+                        <ul>
+                          <li>Track your vehicle</li>
+                          <li>Track your vehicle on the app</li>
+                          <li>Track your order</li>
+                          <li>Know your order location</li>
+                        </ul>
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -654,27 +1119,6 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <script src="js/owl.carousel.min.js"></script>
   <script src="js/custom.js"></script>
-  <script>
-    $('.our-customers').owlCarousel({
-      loop: true,
-      margin: 10,
-      nav: false,
-      autoplay: true,
-      autoplayTimeout: 2000,
-      autoplayHoverPause: false,
-      responsive: {
-        0: {
-          items: 1
-        },
-        600: {
-          items: 3
-        },
-        1000: {
-          items: 5
-        }
-      }
-    })
-  </script>
 </body>
 
 </html>

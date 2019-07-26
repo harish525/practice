@@ -250,6 +250,20 @@ body select option {
     border-bottom: 3px solid #e95615;
     color: #00c6ff;
 }
+.carosel-item:nth-child(1) .nav-link.enterprises {
+    color: #495057;
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid #e95615;
+    color: #00c6ff;
+}
+.carosel-item:nth-child(2) .nav-link.ondemand-booking {
+    color: #495057;
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid #e95615;
+    color: #00c6ff;
+}
 
 .nav-tabs .nav-item {
     border: none;
