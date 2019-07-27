@@ -17,7 +17,7 @@ $('.our-customers').owlCarousel({
   nav: false,
   autoplay: true,
   autoplayTimeout: 2000,
-  autoplayHoverPause: false,
+  autoplayHoverPause: true,
   responsive: {
     0: {
       items: 1
@@ -27,6 +27,26 @@ $('.our-customers').owlCarousel({
     },
     1000: {
       items: 5
+    }
+  }
+});
+
+$('.section-testimonials').owlCarousel({
+  loop: true,
+  margin: 15,
+  nav: true,
+  autoplay: false,
+  autoplayTimeout: 5000,
+  autoplayHoverPause: true,
+  responsive: {
+    0: {
+      items: 1
+    },
+    600: {
+      items: 2
+    },
+    1000: {
+      items: 3
     }
   }
 });
