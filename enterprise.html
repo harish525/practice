@@ -38,7 +38,7 @@
   <!-- navbar -->
   <nav class="navbar navbar-expand-lg shadow-sm sticky-top">
     <div class="container">
-      <a class="navbar-brand" href="#"><img src="img/Truksindia-logo.png"></a>
+      <a class="navbar-brand" href="index.html"><img src="img/Truksindia-logo.png"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
         <span class="icon-bar"></span>
@@ -50,7 +50,7 @@
           <li class="nav-item">
             <a class="nav-link hvr-underline-from-left" href="index.html">Home</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link hvr-underline-from-left" href="enterprise.html">Enterprise</a>
           </li>
           <li class="nav-item">
@@ -245,6 +245,52 @@
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- feedback -->
+    <div id="feedback">
+      <a href="#" class="btn btn-info btn-grad btn-lg" data-toggle="modal" data-target="#feedback-modal">feedback</a>
+    </div>
+    <!-- The feedback Modal -->
+    <div class="modal feedback-modal" id="feedback-modal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body">
+            <article class="card-body mx-auto" style="max-width: 400px;">
+              <h4 class="card-title mt-3 pb-3 text-center">Feedback</h4>
+              <form>
+                <div class="form-group input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+                  </div>
+                  <input name="" class="form-control" placeholder="Full name" type="text">
+                </div> <!-- form-group// -->
+                <div class="form-group input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
+                  </div>
+                  <input name="" class="form-control" placeholder="Email address" type="email">
+                </div> <!-- form-group// -->
+                <div class="form-group">
+                  <textarea class="form-control" name="feedback-message" rows="5"
+                    placeholder="Write your message"></textarea>
+                </div>
+                <div class="form-group">
+                  <button type="submit" class="btn btn-primary btn-grad btn-block"> Submit Feedback</button>
+                </div> <!-- form-group// -->
+              </form>
+            </article>
+          </div>
+
         </div>
       </div>
     </div>
