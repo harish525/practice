@@ -667,6 +667,23 @@ footer .widget-services ul li {
 .section-about-us .tab-content {
     border-top: 1px solid rgba(0,0,0,.125);
 }
+.enquery-form-wrapper {
+    height: 300px;
+    background-image: url('img/enterprise.jpg');
+    background-attachment: fixed;
+    background-position: bottom;
+    position: relative;
+}
+.enquery-form-wrapper form label {
+    color: #fff;
+}
+.enquery-form-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background: rgba(0, 0, 0, 0.25);
+}
 
 /* responsive styles */
 @media (min-width: 768px) {
