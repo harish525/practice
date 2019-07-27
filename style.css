@@ -15,6 +15,10 @@ h4,
 h5,
 h6 {
     font-weight: 900;
+    color: #474747;
+}
+p {
+    color: #707070;
 }
 
 li {
@@ -147,6 +151,9 @@ a {
     top: 50%;
     transform: translateY(-65%);
 }
+.carousel-caption h3, .carousel-caption p {
+    color: #fff;
+}
 
 .tab-content .form-group .form-control {
     height: auto;
@@ -243,17 +250,17 @@ body select option {
     border-bottom-right-radius: 0;
 }
 
-.nav-tabs {
+.carousel-caption .nav-tabs {
     border-bottom: none;
 }
 
-.nav-tabs .nav-link:focus,
-.nav-tabs .nav-link:hover {
+.carousel-caption .nav-tabs .nav-link:focus,
+.carousel-caption .nav-tabs .nav-link:hover {
     border-color: transparent;
 }
 
-.nav-tabs .nav-item.show .nav-link,
-.nav-tabs .nav-link.active {
+.carousel-caption .nav-tabs .nav-item.show .nav-link,
+.carousel-caption .nav-tabs .nav-link.active {
     color: #495057;
     background-color: transparent;
     border: none;
@@ -275,11 +282,11 @@ body select option {
     color: #00c6ff;
 }
 
-.nav-tabs .nav-item {
+.carousel-caption .nav-tabs .nav-item {
     border: none;
 }
 
-.nav-tabs .nav-link {
+.carousel-caption .nav-tabs .nav-link {
     color: white;
     text-transform: uppercase;
     font-weight: 900;
@@ -291,6 +298,9 @@ body select option {
     height: auto;
     padding: .6rem .75rem;
     font-size: 14px;
+}
+.section-about-us .btn-grad {
+    padding: .375rem .75rem;
 }
 
 /* footer styles */
@@ -423,7 +433,7 @@ footer .widget-services ul li {
     font-weight: 900;
     font-size: 35px;
     line-height: 40px;
-    color: #1a1a1a;
+    color: #303030;
     text-transform: uppercase;
     margin-bottom: 24px;
 }
@@ -622,6 +632,7 @@ footer .widget-services ul li {
     padding: 30px 0;  
     font-weight: 100; 
     font-size: 14px;
+    color: #fff;
 }
 .section-testimonials .card-wrapper .client-info h6 {
     margin-bottom: 0;
@@ -650,6 +661,11 @@ footer .widget-services ul li {
 .section-testimonials .owl-dots .owl-dot.active span {
     background-color: #e95615;
 }
+.section-about-us .tab-content {
+    border-top: 1px solid rgba(0,0,0,.125);
+}
+
+/* responsive styles */
 @media (min-width: 768px) {
     .navbar .navbar-nav .nav-link {
         padding-right: 0;
