@@ -137,9 +137,9 @@ a {
     justify-content: flex-end;
 }
 
-/* .navbar-brand img {
-    max-width: 60%;
-} */
+.navbar-brand img {
+    max-width: 170px;
+}
 
 .nav-link {
     color: #222;
@@ -747,6 +747,9 @@ footer .widget-services ul li {
     .carousel-caption {
         transform: translateY(-75%);
     }
+    .navbar-brand img {
+        max-width: 150px;
+    }
 }
 @media (max-width: 767px) {
     .section-head h2:after {
@@ -791,5 +794,8 @@ footer .widget-services ul li {
     }
     .navbar-brand {
         max-width: 50%;
+    }
+    .navbar-brand img {
+        max-width: 125px;
     }
 }
