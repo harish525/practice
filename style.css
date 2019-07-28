@@ -697,6 +697,9 @@ footer .widget-services ul li {
     padding: 1rem 3rem;
     font-size: 1rem;
 }
+.page-hero-top.btn-grad {
+    padding: 0;
+}
 /* responsive styles */
 @media (min-width: 768px) {
     .navbar .navbar-nav .nav-link {
