@@ -9,7 +9,8 @@
   <!-- bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <!-- fonts -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
+  <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap"> -->
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
   <!-- font-awesome -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- Owl Carousel Css -->
@@ -39,7 +40,7 @@
   <nav class="navbar navbar-expand-lg shadow-sm sticky-top">
     <div class="container">
       <a class="navbar-brand" href="index.html">
-        <img src="img/Truksindia-logo.png" class="img-fluid">
+        <img src="img/Truksindia-logo.png" class="img-fluid" alt="Truksindia logo">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="">
@@ -72,9 +73,9 @@
           <li class="nav-item">
             <a class="nav-link hvr-underline-from-left" href="#" data-toggle="modal" data-target="#loginmodal">Login</a>
           </li>
-          <button type="button" class="btn btn-outline-warning" data-toggle="modal"
-            data-target="#signupmodal">Signup</button>
         </ul>
+        <button type="button" class="btn btn-outline-warning" data-toggle="modal"
+          data-target="#signupmodal">Sign Up</button>
       </div>
     </div>
   </nav>
@@ -103,7 +104,7 @@
                     <div class="input-group-prepend">
                       <span class="input-group-text"> <i class="fa fa-user"></i> </span>
                     </div>
-                    <input name="" class="form-control" placeholder="Email or login" type="email">
+                    <input name="email" class="form-control" placeholder="Email" type="email">
                   </div> <!-- input-group.// -->
                 </div> <!-- form-group// -->
                 <div class="form-group">
@@ -111,7 +112,7 @@
                     <div class="input-group-prepend">
                       <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
                     </div>
-                    <input class="form-control" placeholder="******" type="password">
+                    <input name="password" class="form-control" placeholder="******" type="password">
                   </div> <!-- input-group.// -->
                 </div> <!-- form-group// -->
                 <div class="form-group">
@@ -145,30 +146,30 @@
                   <div class="input-group-prepend">
                     <span class="input-group-text"> <i class="fa fa-user"></i> </span>
                   </div>
-                  <input name="" class="form-control" placeholder="Full name" type="text">
+                  <input name="fullname" class="form-control" placeholder="Full name" type="text">
                 </div> <!-- form-group// -->
                 <div class="form-group input-group">
                   <div class="input-group-prepend">
                     <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
                   </div>
-                  <input name="" class="form-control" placeholder="Email address" type="email">
+                  <input name="email" class="form-control" placeholder="Email address" type="email">
                 </div> <!-- form-group// -->
                 <div class="form-group input-group">
                   <div class="input-group-prepend">
                     <span class="input-group-text"> <i class="fa fa-phone"></i> </span>
                   </div>
-                  <input name="" class="form-control" placeholder="Phone number" type="text">
+                  <input name="phone" class="form-control" placeholder="Phone number" type="text">
                 </div> <!-- form-group// -->
                 <div class="form-group input-group">
                   <div class="input-group-prepend">
                     <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
                   </div>
-                  <input class="form-control" placeholder="Create password" type="password">
+                  <input name="password" class="form-control" placeholder="Create password" type="password">
                 </div> <!-- form-group// -->
                 <div class="form-group">
                   <button type="submit" class="btn btn-primary btn-grad btn-block"> Create Account </button>
                 </div> <!-- form-group// -->
-                <p class="text-center">Have an account? <a href="">Log In</a> </p>
+                <p class="text-center">Have an account? <a href="#">Log In</a> </p>
               </form>
             </article>
           </div>
@@ -183,10 +184,10 @@
       <div class="carousel-inner">
         <!-- slide-1 start -->
         <div class="carousel-item active">
-          <img src="img/enterprise.jpg">
+          <img src="img/enterprise.jpg" alt="enterprise" />
           <div class="carousel-caption text-left">
             <div class="tab-content">
-              <div id="" class="container">
+              <div class="container">
                 <div class="pb-4 col-md-9 mx-auto text-center">
                   <h3 class="pb-2">Become a part of Truks India family</h3>
                   <p>Over 25000 happy clients worldwide</p>
@@ -252,10 +253,10 @@
 
         <!-- slide-2 start -->
         <div class="carousel-item">
-          <img src="img/drivers.jpg">
+          <img src="img/drivers.jpg" alt="driver" />
           <div class="carousel-caption text-left">
             <div class="tab-content">
-              <div id="" class="container">
+              <div class="container">
                 <div class="pb-4 col-md-9 mx-auto text-center">
                   <h3 class="pb-2">Become a part of Truks India family</h3>
                   <p>Over 25000 happy clients worldwide</p>
@@ -323,10 +324,10 @@
 
         <!-- slide-3 start -->
         <div class="carousel-item">
-          <img src="img/vendors.jpg">
+          <img src="img/vendors.jpg" alt="vendors" />
           <div class="carousel-caption text-left">
             <div class="tab-content">
-              <div id="" class="container">
+              <div class="container">
                 <div class="pb-4 col-md-9 mx-auto text-center">
                   <h3 class="pb-2">Become a part of Truks India family</h3>
                   <p>Over 25000 happy clients worldwide</p>
@@ -395,10 +396,10 @@
 
         <!-- slide-4 start -->
         <div class="carousel-item">
-          <img src="img/packers.png">
+          <img src="img/packers.png" alt="packer and movers" />
           <div class="carousel-caption text-left">
             <div class="tab-content">
-              <div id="" class="container">
+              <div class="container">
                 <div class="pb-4 col-md-9 mx-auto text-center">
                   <h3 class="pb-2">Become a part of Truks India family</h3>
                   <p>Over 25000 happy clients worldwide</p>
@@ -567,15 +568,14 @@
                     <div class="card-body">
                       <h4 class="card-title">Seamless payments
                       </h4>
-                      <p class="card-text">
+                      <div class="card-text">
                         <ul>
                           <li>Cash/Paytm </li>
                           <li>Debit or credit card</li>
                           <li>Net banking</li>
                           <li>Cash/Paytm </li>
                         </ul>
-                      </p>
-
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -588,7 +588,7 @@
                       <h4 class="card-title">Multi pick-up and drop-off points
 
                       </h4>
-                      <p class="card-text">
+                      <div class="card-text">
                         <ul>
                           <li>Load at different places on your way
                           </li>
@@ -597,7 +597,7 @@
                           <li>Hassle free route options</li>
                           <li>Custom route options</li>
                         </ul>
-                      </p>
+                      </div>
 
                     </div>
                   </div>
@@ -610,14 +610,14 @@
                     <div class="card-body">
                       <h4 class="card-title">End-to-end visibility
                       </h4>
-                      <p class="card-text">
+                      <div class="card-text">
                         <ul>
                           <li>Track your vehicle</li>
                           <li>Track your vehicle on the app</li>
                           <li>Track your order</li>
                           <li>Know your order location</li>
                         </ul>
-                      </p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -837,15 +837,15 @@
           <!-- TITLE END-->
           <div class="section-content">
             <div class="owl-carousel our-customers owl-theme">
-              <div class="item p-3"><img src="img/amazon.png"></div>
-              <div class="item p-3"><img src="img/flipkart.png"></div>
-              <div class="item p-3"><img src="img/bisleri.png"></div>
-              <div class="item p-3"><img src="img/quikr.png"></div>
-              <div class="item p-3"><img src="img/fedex.png"></div>
-              <div class="item p-3"><img src="img/rivigo.png"></div>
-              <div class="item p-3"><img src="img/reliancedig.png"></div>
-              <div class="item p-3"><img src="img/xiaomi.png"></div>
-              <div class="item p-3"><img src="img/zero.png"></div>
+              <div class="item p-3"><img src="img/amazon.png" alt="Amazon" /></div>
+              <div class="item p-3"><img src="img/flipkart.png" alt="Filpart" /></div>
+              <div class="item p-3"><img src="img/bisleri.png" alt="Bisleri" /></div>
+              <div class="item p-3"><img src="img/quikr.png"   alt="Quikr"></div>
+              <div class="item p-3"><img src="img/fedex.png" alt="Fedex"></div>
+              <div class="item p-3"><img src="img/rivigo.png" alt="Rivigo"></div>
+              <div class="item p-3"><img src="img/reliancedig.png" alt="Reliance digital"></div>
+              <div class="item p-3"><img src="img/xiaomi.png" alt="Xiaomi"></div>
+              <div class="item p-3"><img src="img/zero.png" alt="Zero"></div>
             </div>
           </div>
         </div>
@@ -890,7 +890,7 @@
           </div>
           <div class="card-wrapper">
             <div class="top-image">
-              <img src="img/testinomial.png" alt="">
+              <img src="img/testinomial.png" alt="testimonials" />
             </div>
             <div class="box text-center btn-grad-2">
               <div class="card-body text-white">
@@ -914,7 +914,7 @@
           </div>
           <div class="card-wrapper">
             <div class="top-image">
-              <img src="img/testinomial.png" alt="">
+              <img src="img/testinomial.png" alt="testimonials" />
             </div>
             <div class="box text-center btn-grad-2">
               <div class="card-body text-white">
@@ -938,7 +938,7 @@
           </div>
           <div class="card-wrapper">
             <div class="top-image">
-              <img src="img/testinomial.png" alt="">
+              <img src="img/testinomial.png" alt="testimonials" />
             </div>
             <div class="box text-center btn-grad-2">
               <div class="card-body text-white">
